@@ -28,6 +28,7 @@ Route::get('produk/edit/{id}', 'ProdukController@edit');
 Route::patch('produk/{id}','ProdukController@editProcess');
 Route::delete('produk/{id}', 'ProdukController@delete');
 //Route
+//Test
 
 Route::resource('detail','DetailController');
 
