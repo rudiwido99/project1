@@ -34,6 +34,7 @@ Route::delete('produk/{id}', 'ProdukController@delete');
 //Edit1
 //Edit2
 //Edit3
+//Edit4
 
 Route::resource('detail','DetailController');
 
