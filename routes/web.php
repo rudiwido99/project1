@@ -30,6 +30,7 @@ Route::delete('produk/{id}', 'ProdukController@delete');
 //Route
 //Test
 //Contoh
+//Contoh2
 
 Route::resource('detail','DetailController');
 
