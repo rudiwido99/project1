@@ -29,6 +29,7 @@ Route::patch('produk/{id}','ProdukController@editProcess');
 Route::delete('produk/{id}', 'ProdukController@delete');
 //Route
 //Test
+//Contoh
 
 Route::resource('detail','DetailController');
 
