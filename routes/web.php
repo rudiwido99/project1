@@ -27,6 +27,7 @@ Route::post('produk','ProdukController@addProcess');
 Route::get('produk/edit/{id}', 'ProdukController@edit');
 Route::patch('produk/{id}','ProdukController@editProcess');
 Route::delete('produk/{id}', 'ProdukController@delete');
+//Route
 
 Route::resource('detail','DetailController');
 
