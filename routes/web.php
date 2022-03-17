@@ -31,6 +31,8 @@ Route::delete('produk/{id}', 'ProdukController@delete');
 //Test
 //Contoh
 //Contoh2
+//Edit1
+//Edit2
 
 Route::resource('detail','DetailController');
 
